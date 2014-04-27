@@ -1,0 +1,22 @@
+---
+layout: default
+title: the djourney -- coding, python and django resources for the beginner
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+<br />
+
+  <h1>Python and Django Resources</h1>
+    <ul class="posts">
+	{% for resource in site.data.resources %}
+		<li><span>{{ resource.date | date_to_string }}</span> &raquo; <a href="{{ resource.link }}">{{ resource.title }}</a></li>
+	{% endfor %}
+</ul>
+</div>

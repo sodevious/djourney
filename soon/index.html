@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h2>Coming Soon</h2>
+
+<br />
+
+<ul>
+	{% for idea in site.data.ideas %}
+	<li>{{ idea.thing }}</li>
+	{% endfor %}
+</ul>
+
+<br />
+
+<a href="#">Make a suggestion</a>
