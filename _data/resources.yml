@@ -1,3 +1,19 @@
 - link: https://docs.djangoproject.com/en/1.6/intro/tutorial01/
   title: Writing your first Django app (the official Django tutorial)
   date: April 27th, 2014
+  type: tutorial
+
+- link: http://eddychan.com/post/15775730174/how-i-learnt-enough-python-django-to-be-dangerous-in-1
+  title: How I Learnt enough Python/Django to be Dangerous in 1 Month
+  date: April 27th, 2014
+  type: story
+
+- link: http://www.limedaring.com/im-a-designer-who-learned-django-and-launched-her-first-webapp-in-6-weeks/
+  title: I'm a Designer Who Learned Django and Launched her First Webapp in 6 Weeks
+  date: April 27th, 2014
+  type: story
+
+- link: https://developers.google.com/edu/python/
+  title: Google's Python Class
+  date: April 27th, 2014
+  type: course
