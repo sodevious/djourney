@@ -17,3 +17,9 @@
   title: Google's Python Class
   date: April 27th, 2014
   type: course
+
+- link: http://effectivedjango.com/
+  title: Effective Django
+  date: February 26th, 2015
+  type: tutorial
+
