@@ -1,4 +1,9 @@
-# Starting a django project in an already created directory
+---
+layout: post
+title:  "Starting a django project in an already created directory"
+date:   2015-02-26 00:28:53
+categories: python notes
+---
 
 When you want to start a new Django project in a directory that already exists, you can specify that in the `startproject` command! (make sure you are inside that directory)
 
